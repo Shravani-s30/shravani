@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - CyberShield</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='service.css') }}">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Cyber<span>Shield</span></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="features.html">Features</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button class="login">Login</button>
+            <button class="signup">Sign Up</button>
+        </div>
+    </header>
+
+    <section class="services">
+        <h1>Our <span>Services</span></h1>
+        <div class="service-container">
+            <div class="service-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Cyber Threat Protection</h3>
+                <p>We provide real-time protection against malware, phishing, and cyber threats.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-user-secret"></i>
+                <h3>Ethical Hacking</h3>
+                <p>Our certified experts perform penetration testing to identify vulnerabilities.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-lock"></i>
+                <h3>Data Encryption</h3>
+                <p>We secure your data with advanced encryption techniques to prevent breaches.</p>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-server"></i>
+                <h3>Cloud Security</h3>
+                <p>Protect your cloud infrastructure with our state-of-the-art security solutions.</p>
+            </div>
+        </div>
+    </section>

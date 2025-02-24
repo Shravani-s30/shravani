@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield - Secure Your World</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Cyber<span>Shield</span></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <button class="login" onclick="location.href='login'">Login</button>
+            <!-- <button class="btn" onclick="location.href='login'">Login</button> -->
+
+            <button class="signup"onclick="location.href='signup'">Sign Up</button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Protect Your Digital World</h1>
+            <p>Advanced security solutions to safeguard your data and privacy.</p>
+            <a href="#" class="explore-btn">Explore Now</a>
+        </div>
+    </section>
+
+    <script>
+        // Animation for fade-in effect
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelector('.hero-content').classList.add('show');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - CyberShield</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='signup.css') }}">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Cyber<span>Shield</span></div>
+        <nav>
+            <ul>
+                <!-- <li><a href="index.html">Home</a></li> -->
+                <!-- <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="features.html">Features</a></li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="signup-container">
+        <div class="signup-box">
+            <h2>Sign Up</h2>
+            <form>
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+
+                <!-- <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Last Name" required>
+                </div> -->
+                
+                <div class="input-group">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Username" required>
+                </div>
+
+                <!-- <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email" required>
+                </div> -->
+
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Create Password" required>
+                </div>
+
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Confirm Password" required>
+                </div>
+
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Remember Me</label>
+                </div>
+
+                <button type="submit" class="signup-btn">Sign Up</button>
+
+                <p class="login-link">Already have an account? <a href="login">Login</a></p>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
